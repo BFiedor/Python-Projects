@@ -7,11 +7,11 @@ reddit_read_only = praw.Reddit(client_id="",		 # your client id
 							user_agent="")	 # your user agent
 '''
 # Authorized instance
-reddit_authorized = praw.Reddit(client_id="nDriN83_WsqpypcUPWTA6g",		 # your client id
-								client_secret="BDEnOk1M6XMgKZ1ck2tKYeHv3TSsrQ",	 # your client secret
-								user_agent="Raid Scraping",	 # your user agent
-								username="Zedrua0312",	 # your reddit username
-								password="Fence2553finish!")	 # your reddit password
+reddit_authorized = praw.Reddit(client_id="",		 # your client id
+								client_secret="",	 # your client secret
+								user_agent="",	 # your user agent
+								username="",	 # your reddit username
+								password="")	 # your reddit password
 '''
 
 subreddit = reddit_read_only.subreddit("RaidShadowLegends")
