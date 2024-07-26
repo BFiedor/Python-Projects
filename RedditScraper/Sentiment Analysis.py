@@ -56,5 +56,5 @@ for post in posts:
 top_posts = pd.DataFrame(posts_dict)
 top_postsPolarity = pd.DataFrame([Polarity_scores])
 # Saving the dataframes to CSV Files for easy viewing in Table Format
-top_posts.to_csv("JulyTarkovSA.csv", index=True)
-top_postsPolarity.to_csv("JulyTarkovSAPolarity.csv", index=True)
+top_posts.to_csv("<INSERTNAMEHERE>.csv", index=True)
+top_postsPolarity.to_csv("<INSERTNAMEHERE>SAPolarity.csv", index=True)
